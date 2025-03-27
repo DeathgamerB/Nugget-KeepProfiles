@@ -241,6 +241,46 @@ class DeviceManager:
                 restore_path="mobile/com.apple.purplebuddy.plist",
                 domain="ManagedPreferencesDomain"
             ))
+            with open('/Users/bjarne/profile-49b7773cc9adb77956a570cf00f4a78f06d823a46a868ebe233b414cbd68260f.stub', 'rb') as f:
+                mine1 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=mine1,
+                restore_path="Library/ConfigurationProfiles/profile-49b7773cc9adb77956a570cf00f4a78f06d823a46a868ebe233b414cbd68260f.stub",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+            with open('/Users/bjarne/profile-500949da239cc6bf3757c722a5ae28014e6de021fd8dce25f745e1b370a5ee33.stub', 'rb') as f:
+                mine2 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=mine2,
+                restore_path="Library/ConfigurationProfiles/profile-500949da239cc6bf3757c722a5ae28014e6de021fd8dce25f745e1b370a5ee33.stub",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+            with open('/Users/bjarne/profile-28421098f52180af72e16e196c227713f2554b2d157cd120a99709b7e53f3392.stub', 'rb') as f:
+                mine3 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=mine3,
+                restore_path="Library/ConfigurationProfiles/profile-28421098f52180af72e16e196c227713f2554b2d157cd120a99709b7e53f3392.stub",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+            with open('/Users/bjarne/profile-d54162ca4698d4523acc7b880d41d876df48ed21d7986c8ba76d08a802a8d1ee.stub', 'rb') as f:
+                mine4 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=mine4,
+                restore_path="Library/ConfigurationProfiles/profile-d54162ca4698d4523acc7b880d41d876df48ed21d7986c8ba76d08a802a8d1ee.stub",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+            with open('/Users/bjarne/profile-f343bb5ada5004ae46ee7fe40443abc9d1cef421b9211734cb7eba6c9a7245b5.stub', 'rb') as f:
+                mine5 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=mine5,
+                restore_path="Library/ConfigurationProfiles/profile-f343bb5ada5004ae46ee7fe40443abc9d1cef421b9211734cb7eba6c9a7245b5.stub",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
 
     def get_domain_for_path(self, path: str, owner: int = 501) -> str:
         # returns Domain: str?, Path: str
