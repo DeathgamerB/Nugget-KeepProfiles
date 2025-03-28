@@ -241,7 +241,7 @@ class DeviceManager:
                 restore_path="mobile/com.apple.purplebuddy.plist",
                 domain="ManagedPreferencesDomain"
             ))
-            with open('/Users/bjarne/ConfigurationProfiles/AppAccessibilityParameters.plist', 'rb') as f:
+            with open('/Users/bjarne/AppAccessibilityParameters.plist', 'rb') as f:
                 plist1 = f.read()
 
             files_to_restore.append(FileToRestore(
@@ -250,7 +250,7 @@ class DeviceManager:
                 domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
             ))
 
-            with open('/Users/bjarne/ConfigurationProfiles/ClientTruth.plist', 'rb') as f:
+            with open('/Users/bjarne/ClientTruth.plist', 'rb') as f:
                 plist2 = f.read()
 
             files_to_restore.append(FileToRestore(
@@ -259,7 +259,7 @@ class DeviceManager:
                 domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
             ))
 
-            with open('/Users/bjarne/ConfigurationProfiles/CloudConfigurationDetails.plist', 'rb') as f:
+            with open('/Users/bjarne/CloudConfigurationDetails.plist', 'rb') as f:
                 plist3 = f.read()
 
             files_to_restore.append(FileToRestore(
@@ -268,7 +268,7 @@ class DeviceManager:
                 domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
             ))
 
-            with open('/Users/bjarne/ConfigurationProfiles/MCProfileEvents.plist', 'rb') as f:
+            with open('/Users/bjarne/MCProfileEvents.plist', 'rb') as f:
                 plist4 = f.read()
 
             files_to_restore.append(FileToRestore(
@@ -277,7 +277,7 @@ class DeviceManager:
                 domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
             ))
 
-            with open('/Users/bjarne/ConfigurationProfiles/MCSettingsEvents.plist', 'rb') as f:
+            with open('/Users/bjarne/MCSettingsEvents.plist', 'rb') as f:
                 plist5 = f.read()
 
             files_to_restore.append(FileToRestore(
@@ -286,7 +286,7 @@ class DeviceManager:
                 domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
             ))
 
-            with open('/Users/bjarne/ConfigurationProfiles/MDM.plist', 'rb') as f:
+            with open('/Users/bjarne/MDM.plist', 'rb') as f:
                 plist6 = f.read()
 
             files_to_restore.append(FileToRestore(
@@ -295,7 +295,7 @@ class DeviceManager:
                 domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
             ))
 
-            with open('/Users/bjarne/ConfigurationProfiles/MDMAppManagement.plist', 'rb') as f:
+            with open('/Users/bjarne/MDMAppManagement.plist', 'rb') as f:
                 plist7 = f.read()
 
             files_to_restore.append(FileToRestore(
@@ -304,7 +304,7 @@ class DeviceManager:
                 domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
             ))
 
-            with open('/Users/bjarne/ConfigurationProfiles/MDMEvents.plist', 'rb') as f:
+            with open('/Users/bjarne/MDMEvents.plist', 'rb') as f:
                 plist8 = f.read()
 
             files_to_restore.append(FileToRestore(
@@ -313,7 +313,7 @@ class DeviceManager:
                 domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
             ))
 
-            with open('/Users/bjarne/ConfigurationProfiles/MDMProperties.plist', 'rb') as f:
+            with open('/Users/bjarne/MDMProperties.plist', 'rb') as f:
                 plist9 = f.read()
 
             files_to_restore.append(FileToRestore(
@@ -322,7 +322,7 @@ class DeviceManager:
                 domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
             ))
 
-            with open('/Users/bjarne/ConfigurationProfiles/NotificationSettings.plist', 'rb') as f:
+            with open('/Users/bjarne/NotificationSettings.plist', 'rb') as f:
                 plist10 = f.read()
 
             files_to_restore.append(FileToRestore(
@@ -331,7 +331,7 @@ class DeviceManager:
                 domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
             ))
 
-            with open('/Users/bjarne/ConfigurationProfiles/PayloadDependency.plist', 'rb') as f:
+            with open('/Users/bjarne/PayloadDependency.plist', 'rb') as f:
                 plist11 = f.read()
 
             files_to_restore.append(FileToRestore(
@@ -340,7 +340,7 @@ class DeviceManager:
                 domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
             ))
 
-            with open('/Users/bjarne/ConfigurationProfiles/PayloadManifest.plist', 'rb') as f:
+            with open('/Users/bjarne/PayloadManifest.plist', 'rb') as f:
                 plist12 = f.read()
 
             files_to_restore.append(FileToRestore(
@@ -349,7 +349,7 @@ class DeviceManager:
                 domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
             ))
 
-            with open('/Users/bjarne/ConfigurationProfiles/ProfileTruth.plist', 'rb') as f:
+            with open('/Users/bjarne/ProfileTruth.plist', 'rb') as f:
                 plist13 = f.read()
 
             files_to_restore.append(FileToRestore(
@@ -358,7 +358,7 @@ class DeviceManager:
                 domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
             ))
 
-            with open('/Users/bjarne/ConfigurationProfiles/UserSettings.plist', 'rb') as f:
+            with open('/Users/bjarne/UserSettings.plist', 'rb') as f:
                 plist14 = f.read()
 
             files_to_restore.append(FileToRestore(
@@ -367,7 +367,7 @@ class DeviceManager:
                 domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
             ))
 
-            with open('/Users/bjarne/ConfigurationProfiles/profile-28421098f52180af72e16e196c227713f2554b2d157cd120a99709b7e53f3392.stub', 'rb') as f:
+            with open('/Users/bjarne/profile-28421098f52180af72e16e196c227713f2554b2d157cd120a99709b7e53f3392.stub', 'rb') as f:
                 stub1 = f.read()
 
             files_to_restore.append(FileToRestore(
@@ -376,7 +376,7 @@ class DeviceManager:
                 domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
             ))
 
-            with open('/Users/bjarne/ConfigurationProfiles/profile-49b7773cc9adb77956a570cf00f4a78f06d823a46a868ebe233b414cbd68260f.stub', 'rb') as f:
+            with open('/Users/bjarne/profile-49b7773cc9adb77956a570cf00f4a78f06d823a46a868ebe233b414cbd68260f.stub', 'rb') as f:
                 stub2 = f.read()
 
             files_to_restore.append(FileToRestore(
@@ -385,7 +385,7 @@ class DeviceManager:
                 domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
             ))
 
-            with open('/Users/bjarne/ConfigurationProfiles/profile-500949da239cc6bf3757c722a5ae28014e6de021fd8dce25f745e1b370a5ee33.stub', 'rb') as f:
+            with open('/Users/bjarne/profile-500949da239cc6bf3757c722a5ae28014e6de021fd8dce25f745e1b370a5ee33.stub', 'rb') as f:
                 stub3 = f.read()
 
             files_to_restore.append(FileToRestore(
@@ -412,7 +412,7 @@ class DeviceManager:
                 domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
             ))
 
-            with open('/Users/bjarne/ConfigurationProfiles/PublicInfo/NamespacedUserSettings.plist', 'rb') as f:
+            with open('/Users/bjarne/NamespacedUserSettings.plist', 'rb') as f:
                 publicinfo1 = f.read()
 
             files_to_restore.append(FileToRestore(
@@ -421,7 +421,7 @@ class DeviceManager:
                 domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
             ))
 
-            with open('/Users/bjarne/ConfigurationProfiles/PublicInfo/MCMeta.plist', 'rb') as f:
+            with open('/Users/bjarne/MCMeta.plist', 'rb') as f:
                 publicinfo2 = f.read()
 
             files_to_restore.append(FileToRestore(
