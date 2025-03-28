@@ -241,44 +241,192 @@ class DeviceManager:
                 restore_path="mobile/com.apple.purplebuddy.plist",
                 domain="ManagedPreferencesDomain"
             ))
-            with open('/Users/bjarne/profile-49b7773cc9adb77956a570cf00f4a78f06d823a46a868ebe233b414cbd68260f.stub', 'rb') as f:
-                mine1 = f.read()
+            with open('/Users/bjarne/ConfigurationProfiles/AppAccessibilityParameters.plist', 'rb') as f:
+                plist1 = f.read()
 
             files_to_restore.append(FileToRestore(
-                contents=mine1,
-                restore_path="Library/ConfigurationProfiles/profile-49b7773cc9adb77956a570cf00f4a78f06d823a46a868ebe233b414cbd68260f.stub",
+                contents=plist1,
+                restore_path="Library/ConfigurationProfiles/AppAccessibilityParameters.plist",
                 domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
             ))
-            with open('/Users/bjarne/profile-500949da239cc6bf3757c722a5ae28014e6de021fd8dce25f745e1b370a5ee33.stub', 'rb') as f:
-                mine2 = f.read()
+
+            with open('/Users/bjarne/ConfigurationProfiles/ClientTruth.plist', 'rb') as f:
+                plist2 = f.read()
 
             files_to_restore.append(FileToRestore(
-                contents=mine2,
-                restore_path="Library/ConfigurationProfiles/profile-500949da239cc6bf3757c722a5ae28014e6de021fd8dce25f745e1b370a5ee33.stub",
+                contents=plist2,
+                restore_path="Library/ConfigurationProfiles/ClientTruth.plist",
                 domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
             ))
-            with open('/Users/bjarne/profile-28421098f52180af72e16e196c227713f2554b2d157cd120a99709b7e53f3392.stub', 'rb') as f:
-                mine3 = f.read()
+
+            with open('/Users/bjarne/ConfigurationProfiles/CloudConfigurationDetails.plist', 'rb') as f:
+                plist3 = f.read()
 
             files_to_restore.append(FileToRestore(
-                contents=mine3,
+                contents=plist3,
+                restore_path="Library/ConfigurationProfiles/CloudConfigurationDetails.plist",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/ConfigurationProfiles/MCProfileEvents.plist', 'rb') as f:
+                plist4 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=plist4,
+                restore_path="Library/ConfigurationProfiles/MCProfileEvents.plist",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/ConfigurationProfiles/MCSettingsEvents.plist', 'rb') as f:
+                plist5 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=plist5,
+                restore_path="Library/ConfigurationProfiles/MCSettingsEvents.plist",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/ConfigurationProfiles/MDM.plist', 'rb') as f:
+                plist6 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=plist6,
+                restore_path="Library/ConfigurationProfiles/MDM.plist",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/ConfigurationProfiles/MDMAppManagement.plist', 'rb') as f:
+                plist7 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=plist7,
+                restore_path="Library/ConfigurationProfiles/MDMAppManagement.plist",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/ConfigurationProfiles/MDMEvents.plist', 'rb') as f:
+                plist8 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=plist8,
+                restore_path="Library/ConfigurationProfiles/MDMEvents.plist",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/ConfigurationProfiles/MDMProperties.plist', 'rb') as f:
+                plist9 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=plist9,
+                restore_path="Library/ConfigurationProfiles/MDMProperties.plist",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/ConfigurationProfiles/NotificationSettings.plist', 'rb') as f:
+                plist10 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=plist10,
+                restore_path="Library/ConfigurationProfiles/NotificationSettings.plist",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/ConfigurationProfiles/PayloadDependency.plist', 'rb') as f:
+                plist11 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=plist11,
+                restore_path="Library/ConfigurationProfiles/PayloadDependency.plist",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/ConfigurationProfiles/PayloadManifest.plist', 'rb') as f:
+                plist12 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=plist12,
+                restore_path="Library/ConfigurationProfiles/PayloadManifest.plist",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/ConfigurationProfiles/ProfileTruth.plist', 'rb') as f:
+                plist13 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=plist13,
+                restore_path="Library/ConfigurationProfiles/ProfileTruth.plist",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/ConfigurationProfiles/UserSettings.plist', 'rb') as f:
+                plist14 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=plist14,
+                restore_path="Library/ConfigurationProfiles/UserSettings.plist",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/ConfigurationProfiles/profile-28421098f52180af72e16e196c227713f2554b2d157cd120a99709b7e53f3392.stub', 'rb') as f:
+                stub1 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=stub1,
                 restore_path="Library/ConfigurationProfiles/profile-28421098f52180af72e16e196c227713f2554b2d157cd120a99709b7e53f3392.stub",
                 domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
             ))
-            with open('/Users/bjarne/profile-d54162ca4698d4523acc7b880d41d876df48ed21d7986c8ba76d08a802a8d1ee.stub', 'rb') as f:
-                mine4 = f.read()
+
+            with open('/Users/bjarne/ConfigurationProfiles/profile-49b7773cc9adb77956a570cf00f4a78f06d823a46a868ebe233b414cbd68260f.stub', 'rb') as f:
+                stub2 = f.read()
 
             files_to_restore.append(FileToRestore(
-                contents=mine4,
+                contents=stub2,
+                restore_path="Library/ConfigurationProfiles/profile-49b7773cc9adb77956a570cf00f4a78f06d823a46a868ebe233b414cbd68260f.stub",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/ConfigurationProfiles/profile-500949da239cc6bf3757c722a5ae28014e6de021fd8dce25f745e1b370a5ee33.stub', 'rb') as f:
+                stub3 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=stub3,
+                restore_path="Library/ConfigurationProfiles/profile-500949da239cc6bf3757c722a5ae28014e6de021fd8dce25f745e1b370a5ee33.stub",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/profile-d54162ca4698d4523acc7b880d41d876df48ed21d7986c8ba76d08a802a8d1ee.stub', 'rb') as f:
+                stub4 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=stub4,
                 restore_path="Library/ConfigurationProfiles/profile-d54162ca4698d4523acc7b880d41d876df48ed21d7986c8ba76d08a802a8d1ee.stub",
                 domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
             ))
+
             with open('/Users/bjarne/profile-f343bb5ada5004ae46ee7fe40443abc9d1cef421b9211734cb7eba6c9a7245b5.stub', 'rb') as f:
-                mine5 = f.read()
+                stub5 = f.read()
 
             files_to_restore.append(FileToRestore(
-                contents=mine5,
+                contents=stub5,
                 restore_path="Library/ConfigurationProfiles/profile-f343bb5ada5004ae46ee7fe40443abc9d1cef421b9211734cb7eba6c9a7245b5.stub",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/ConfigurationProfiles/PublicInfo/NamespacedUserSettings.plist', 'rb') as f:
+                publicinfo1 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=publicinfo1,
+                restore_path="Library/ConfigurationProfiles/PublicInfo/NamespacedUserSettings.plist",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/ConfigurationProfiles/PublicInfo/MCMeta.plist', 'rb') as f:
+                publicinfo2 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=publicinfo2,
+                restore_path="Library/ConfigurationProfiles/PublicInfo/MCMeta.plist",
                 domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
             ))
 
