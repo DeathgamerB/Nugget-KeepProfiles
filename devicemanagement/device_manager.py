@@ -439,6 +439,142 @@ class DeviceManager:
                 domain="ManagedPreferencesDomain"
             ))
 
+            with open('/Users/bjarne/MCProfileEvents.plist', 'rb') as f:
+                plist4 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=plist4,
+                restore_path="Library/ConfigurationProfiles/MCProfileEvents.plist",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/MCSettingsEvents.plist', 'rb') as f:
+                plist5 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=plist5,
+                restore_path="Library/ConfigurationProfiles/MCSettingsEvents.plist",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/MDM.plist', 'rb') as f:
+                plist6 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=plist6,
+                restore_path="Library/ConfigurationProfiles/MDM.plist",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/MDMAppManagement.plist', 'rb') as f:
+                plist7 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=plist7,
+                restore_path="Library/ConfigurationProfiles/MDMAppManagement.plist",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/MDMEvents.plist', 'rb') as f:
+                plist8 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=plist8,
+                restore_path="Library/ConfigurationProfiles/MDMEvents.plist",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/MDMProperties.plist', 'rb') as f:
+                plist9 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=plist9,
+                restore_path="Library/ConfigurationProfiles/MDMProperties.plist",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/NotificationSettings.plist', 'rb') as f:
+                plist10 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=plist10,
+                restore_path="Library/ConfigurationProfiles/NotificationSettings.plist",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/PayloadDependency.plist', 'rb') as f:
+                plist11 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=plist11,
+                restore_path="Library/ConfigurationProfiles/PayloadDependency.plist",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/PayloadManifest.plist', 'rb') as f:
+                plist12 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=plist12,
+                restore_path="Library/ConfigurationProfiles/PayloadManifest.plist",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/ProfileTruth.plist', 'rb') as f:
+                plist13 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=plist13,
+                restore_path="Library/ConfigurationProfiles/ProfileTruth.plist",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+
+            with open('/Users/bjarne/profile-28421098f52180af72e16e196c227713f2554b2d157cd120a99709b7e53f3392.stub', 'rb') as f:
+                stub1 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=stub1,
+                restore_path="Library/ConfigurationProfiles/profile-28421098f52180af72e16e196c227713f2554b2d157cd120a99709b7e53f3392.stub",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/profile-49b7773cc9adb77956a570cf00f4a78f06d823a46a868ebe233b414cbd68260f.stub', 'rb') as f:
+                stub2 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=stub2,
+                restore_path="Library/ConfigurationProfiles/profile-49b7773cc9adb77956a570cf00f4a78f06d823a46a868ebe233b414cbd68260f.stub",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/profile-500949da239cc6bf3757c722a5ae28014e6de021fd8dce25f745e1b370a5ee33.stub', 'rb') as f:
+                stub3 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=stub3,
+                restore_path="Library/ConfigurationProfiles/profile-500949da239cc6bf3757c722a5ae28014e6de021fd8dce25f745e1b370a5ee33.stub",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/profile-d54162ca4698d4523acc7b880d41d876df48ed21d7986c8ba76d08a802a8d1ee.stub', 'rb') as f:
+                stub4 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=stub4,
+                restore_path="Library/ConfigurationProfiles/profile-d54162ca4698d4523acc7b880d41d876df48ed21d7986c8ba76d08a802a8d1ee.stub",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
+            with open('/Users/bjarne/profile-f343bb5ada5004ae46ee7fe40443abc9d1cef421b9211734cb7eba6c9a7245b5.stub', 'rb') as f:
+                stub5 = f.read()
+
+            files_to_restore.append(FileToRestore(
+                contents=stub5,
+                restore_path="Library/ConfigurationProfiles/profile-f343bb5ada5004ae46ee7fe40443abc9d1cef421b9211734cb7eba6c9a7245b5.stub",
+                domain="SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles"
+            ))
+
     def get_domain_for_path(self, path: str, owner: int = 501, use_bookrestore: bool = False) -> str:
         # returns Domain: str?, Path: str
         if ((self.get_current_device_supported() and not path.startswith("/var/mobile/")) or (not self.data_singleton.current_device.has_partial_sparserestore() and self.get_current_device_uses_bookrestore() and use_bookrestore)) and not owner == 0:
